@@ -150,7 +150,7 @@ def get_position():
 def game_mode():
     # 1 for computer , 2 for 2 players
     global game_mode
-    game_mode = input("Enter your game mode:\n\n1 - play with Computer\n2 - play with 2 Players\n> ")
+    game_mode = input("Choose a game mode:\n\n1 - play with Computer\n2 - play with 2 Players\n> ")
 
     # computer mode
     if game_mode == "1":
